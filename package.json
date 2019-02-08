@@ -1,0 +1,26 @@
+{
+  "name": "timelimit",
+  "version": "1.0.0",
+  "description": "Time Limit is a time tracking tool",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nuxt-ts": "latest",
+    "pug": "^2.0.3",
+    "vue-property-decorator": "^7.3.0"
+  },
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "lint": "tslint --project .",
+    "post-update": "yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4",
+    "pug-plain-loader": "^1.0.0",
+    "tslint-config-standard": "^8.0.1"
+  }
+}
