@@ -1,12 +1,16 @@
 <template lang="pug">
-    div footerです
+    section.contents-wrapper
+        div このサイトについて
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 
-@Component
+@Component({
+  layout: "single",
+  components: {}
+})
 export default class extends Vue {}
 </script>
 
-<style scoped></style>
+<style lang="sass" scoped></style>

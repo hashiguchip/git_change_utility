@@ -1,6 +1,5 @@
 <template lang="pug">
-    section.header
-        h1.title Git Change Utility
+    .page-footer
 </template>
 
 <script lang="ts">
@@ -10,4 +9,9 @@ import { Component, Vue } from "vue-property-decorator";
 export default class extends Vue {}
 </script>
 
-<style scoped></style>
+<style lang="sass" scoped>
+.page-footer
+    width: 100vw
+    height: 200px
+    background-color: $primary-color
+</style>

@@ -6,6 +6,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "nuxt-ts": "latest",
     "pug": "^2.0.3",
     "vue-property-decorator": "^7.3.0"
@@ -19,8 +20,11 @@
     "post-update": "yarn upgrade --latest"
   },
   "devDependencies": {
+    "@nuxtjs/style-resources": "^0.1.2",
+    "node-sass": "^4.11.0",
     "prettier": "^1.16.4",
     "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.1.0",
     "tslint-config-standard": "^8.0.1"
   }
 }
