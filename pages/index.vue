@@ -18,9 +18,15 @@ import LeftForm from "../components/common/LeftForm.vue";
   }
 })
 export default class extends Vue {
-  public author = "";
-  public committer = "";
-  public email = "";
+  get author() {
+    return this.$store.state.user.author;
+  }
+  get committer() {
+    return this.$store.state.user.committer;
+  }
+  get email() {
+    return this.$store.state.user.email;
+  }
 }
 </script>
 

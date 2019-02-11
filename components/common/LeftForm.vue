@@ -23,7 +23,17 @@ import Button from "../parts/Button.vue";
     Button
   }
 })
-export default class extends Vue {}
+export default class extends Vue {
+  set author(value: any) {
+    this.$store.commit("user/updateAuthor", value);
+  }
+  set committer(value: any) {
+    this.$store.commit("user/updateCommitter", value);
+  }
+  set email(value: any) {
+    this.$store.commit("user/updateEmail", value);
+  }
+}
 </script>
 
 <style lang="sass" scoped>

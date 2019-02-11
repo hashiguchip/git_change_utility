@@ -26,7 +26,7 @@ npm manifest:
     "name": "timelimit",
     "version": "1.0.0",
     "description": "Time Limit is a time tracking tool",
-    "main": "index.js",
+    "main": "index.ts",
     "author": "",
     "license": "ISC",
     "dependencies": {

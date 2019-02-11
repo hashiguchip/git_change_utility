@@ -10,7 +10,7 @@ import Header from "../components/common/Header.vue";
 
 @Component({
   components: {
-      Header
+    Header
   }
 })
 export default class extends Vue {}
