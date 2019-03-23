@@ -4,7 +4,9 @@
   "rules": {
     "prefer-const": true,
     "semicolon": [true, "always"],
-    "quotemark": [true, "double"]
+    "quotemark": [true, "double"],
+    "comment-format": [false],
+    "space-before-function-paren": [true, "never"]
   },
   "linterOptions": {
     "exclude": ["*.vue"]
