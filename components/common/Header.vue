@@ -16,6 +16,7 @@ export default class extends Vue {}
 
 <style lang="sass" scoped>
 .page-header
+    font-family: $title-font
     display: flex
     justify-content: space-between
     padding: 0 16px

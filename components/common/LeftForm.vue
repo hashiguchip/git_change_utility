@@ -40,6 +40,7 @@ export default class extends Vue {
 $input-border: #1eb9ff
 $input-focus: #e6ff65
 .left-form
+    font-family: $title-font
     // position: fixed
     padding: 20px
     width: 300px

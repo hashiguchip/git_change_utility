@@ -1,6 +1,14 @@
 export default {
   // buildDir: "dist",
   // plugins: ["~/plugins/hello"],
+  head: {
+    link: [
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css?family=Noto+Sans+JP|Oswald|Roboto+Slab"
+      }
+    ]
+  },
   css: ["normalize.css", "~/assets/sass/global.sass"],
   modules: ["@nuxtjs/style-resources"],
   styleResources: {
